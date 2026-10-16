@@ -1,153 +1,246 @@
 <div align="center">
 
-# GRAVITY GONE 🚀
+<img src="assets/gravity-gone-banner.svg" alt="Gravity Gone: a tiny astronaut floating above a neon puzzle planet" width="100%" />
+
+<br />
+
+# GRAVITY GONE
 
 ### The floor is no longer mandatory.
 
-**A momentum-driven gravity puzzle from Beura Labs.**
+**A momentum-driven gravity puzzle from Beura Labs.**<br />
+Swipe to change gravity. Keep your momentum. Dodge the mines. Reach the portal.
 
-Swipe to change gravity. Keep your momentum. Dodge the mines, collect starbits, and guide a tiny astronaut to the portal. Gravity Gone is a fast, mobile-friendly space puzzle game you can play right in your browser.
+<br />
 
 <a href="https://gravity-gone.vercel.app">
-  <img src="assets/launch-button.svg" alt="Animated astronaut button: launch Gravity Gone and play in your browser" width="420" />
+  <img src="assets/launch-button.svg" alt="Launch Gravity Gone and play in your browser" width="460" />
 </a>
 
-<p><strong><a href="https://gravity-gone.vercel.app">▶ Play Gravity Gone · gravity-gone.vercel.app</a></strong></p>
+<sub>No download. No account. Works on phones, tablets and desktops.</sub>
+
+<br />
 
 <p>
-  <img src="https://img.shields.io/badge/GENRE-Physics_Puzzle-5ff0e0?style=flat-square&labelColor=101735" alt="Physics puzzle game" />
-  <img src="https://img.shields.io/badge/PLATFORM-Mobile_%2B_Desktop-9eafff?style=flat-square&labelColor=101735" alt="Mobile and desktop" />
-  <img src="https://img.shields.io/badge/RENDERER-HTML5_Canvas-ffcf5c?style=flat-square&labelColor=101735" alt="HTML5 Canvas game" />
-  <img src="https://img.shields.io/badge/INSTALL-Not_required-5ff0e0?style=flat-square&labelColor=101735" alt="No installation required" />
+  <a href="https://gravity-gone.vercel.app"><img src="https://img.shields.io/badge/LIVE-Play_on_Vercel-5ff0e0?style=for-the-badge&logo=vercel&logoColor=white&labelColor=101735" alt="Play live on Vercel" /></a>
+</p>
+
+<p>
+  <img src="https://img.shields.io/badge/GENRE-Physics_Puzzle-5ff0e0?style=flat-square&labelColor=101735" alt="Physics puzzle" />
+  <img src="https://img.shields.io/badge/LEVELS-12-ffcf5c?style=flat-square&labelColor=101735" alt="12 levels" />
+  <img src="https://img.shields.io/badge/BUILT_WITH-Vanilla_JS_%2B_Canvas-9eafff?style=flat-square&labelColor=101735" alt="Vanilla JavaScript and HTML5 Canvas" />
+  <img src="https://img.shields.io/badge/DEPENDENCIES-0-5ff0e0?style=flat-square&labelColor=101735" alt="Zero dependencies" />
+  <img src="https://img.shields.io/badge/LICENSE-All_Rights_Reserved-ff5c7a?style=flat-square&labelColor=101735" alt="All rights reserved" />
+</p>
+
+<p>
+  <a href="#-what-is-gravity-gone">About</a> &nbsp;·&nbsp;
+  <a href="#-gameplay">Gameplay</a> &nbsp;·&nbsp;
+  <a href="#%EF%B8%8F-how-to-play">How to play</a> &nbsp;·&nbsp;
+  <a href="#-controls">Controls</a> &nbsp;·&nbsp;
+  <a href="#-scoring">Scoring</a> &nbsp;·&nbsp;
+  <a href="#-run-it-locally">Run locally</a> &nbsp;·&nbsp;
+  <a href="#-faq">FAQ</a>
 </p>
 
 </div>
-
-![Gravity Gone astronaut artwork: a space explorer floating above a neon puzzle planet](assets/gravity-gone-banner.svg)
 
 ---
 
 ## 🌌 What is Gravity Gone?
 
-Gravity Gone is an **arcade-style physics puzzle game** where you don't steer the astronaut directly. You change the direction of gravity, then let momentum do its thing.
+Gravity Gone is a fast, arcade-style **physics puzzle** where you never steer the astronaut directly. You only choose which way gravity pulls, then momentum does the rest.
 
-Swipe left, right, up, or down to redirect gravity. The astronaut keeps moving, slides across the level, and only stops when the world gives them a reason to. Find a path through compact space mazes, collect glowing starbits, avoid dangerous mines, and reach the portal with as few gravity changes as possible.
+Swipe left, right, up or down and your little spacefarer slides until a wall stops them. Plan your route through compact space mazes, grab glowing starbits, avoid the mines, and reach the portal using as few gravity changes as you can.
 
-It starts simple. Then your intuition about which way is “down” becomes deeply unhelpful. Perfect.
+It starts easy. Then your sense of which way is "down" becomes deeply unhelpful. Perfect.
 
-## ✨ Why play?
+## 📱 Gameplay
 
-- **Gravity is the controller.** Change the direction of pull instead of manually moving the astronaut.
-- **Momentum matters.** Plan your slides, use walls to stop, and think a few moves ahead.
-- **12 progressive levels.** Unlock the route one stage at a time, with later layouts generated from deterministic level logic.
-- **Starbit hunting.** Collect optional glowing starbits and build satisfying chains.
-- **Mine dodging.** One bad line through a level can send your little spacefarer right back to the start.
-- **Three-star scoring.** Finish with fewer gravity changes to earn a better rating.
-- **Cosmic feedback.** Enjoy particle bursts, screen effects, sound cues, and a tiny synth-like music loop.
-- **Your game, your settings.** Toggle sound and music, choose swipe or tap controls, adjust visual quality, and reduce motion.
-- **Made for small screens.** Touch-first controls, responsive canvas rendering, and phone-friendly menus.
-- **Quick to start.** No account, app installation, or download required to play the live browser version.
+<div align="center">
+
+<a href="https://gravity-gone.vercel.app">
+  <img src="assets/gameplay.svg" alt="Gravity Gone gameplay on Level 8: an astronaut slides through a neon maze past mines and starbits toward a glowing portal" width="320" />
+</a>
+
+<sub><b>Level 8</b> · slide, dodge the red mines, collect the golden starbits, and hit the cyan portal.<br />Illustration rendered from the game's real level data. <a href="https://gravity-gone.vercel.app">Play it live</a> to see the real thing.</sub>
+
+</div>
+
+### What you'll see on screen
+
+| | Element | What it does |
+| :---: | --- | --- |
+| 🧑‍🚀 | **Astronaut** | That's you. You slide in the direction gravity pulls until something stops you. |
+| 🟨 | **Starbit** | Optional golden collectible. Grab them in quick succession to build a chain. |
+| 🔴 | **Mine** | Touch one and your run resets. Plan your slides around them. |
+| 🌀 | **Portal** | Your goal. Slide into it to finish the level. |
+| 🟦 | **Walls** | They stop your slide. Use them as brakes. |
+
+## ✨ Features
+
+| | |
+| --- | --- |
+| 🧲 **Gravity is the controller** | Change the pull direction instead of moving the astronaut by hand. |
+| 🏃 **Momentum matters** | Think a few slides ahead and use walls to stop exactly where you want. |
+| 🧩 **12 progressive levels** | Each stage unlocks the next. Early levels teach, later ones test you. |
+| 🧠 **Built-in solver** | The game calculates the best possible number of gravity changes for every level. |
+| 💎 **Starbit chains** | Collect starbits back to back for satisfying chain bonuses. |
+| ⭐ **Three-star scoring** | Fewer gravity changes means a better rating. |
+| 🎆 **Cosmic feedback** | Particle bursts, screen effects, sound cues and a tiny music loop. |
+| ⚙️ **Your rules** | Toggle sound and music, pick swipe or tap controls, set visual quality, reduce motion. |
+| 📲 **Made for phones** | Touch-first controls, responsive canvas and thumb-friendly menus. |
+| ⚡ **Instant start** | One page, no installs, no accounts. |
 
 ## 🕹️ How to play
 
-1. **Change gravity.** Swipe in the direction you want gravity to pull the astronaut.
-2. **Ride the momentum.** You keep moving even after changing gravity, so use walls and corridors to control your slide.
-3. **Collect starbits.** Grab the glowing collectibles along your route.
+1. **Change gravity.** Swipe in the direction you want gravity to pull.
+2. **Ride the momentum.** You keep sliding after each swipe, so use walls and corridors to control where you stop.
+3. **Collect starbits.** Pick up the golden collectibles along your route.
 4. **Avoid mines.** Touching one resets your current run.
-5. **Reach the portal.** Finish the level, earn your stars, and continue to the next stage.
+5. **Reach the portal.** Finish the level, earn your stars, and move on to the next.
 
-The goal is not simply to find a path. It is to find a good path.
+> The goal is not just to find a path. It's to find a *good* path.
 
 ## 🎮 Controls
 
 | Input | Action |
 | --- | --- |
 | Swipe up / down / left / right | Change the direction of gravity |
-| Tap | Rotate gravity when **Tap** mode is enabled in Settings |
-| Arrow keys | Change gravity in the matching direction |
-| WASD | Alternative keyboard controls |
+| Tap | Rotate gravity (when **Tap** mode is on in Settings) |
+| Arrow keys or WASD | Change gravity in that direction |
 | R | Restart the current run |
-| P or Escape | Pause or resume |
-| Enter or Space | Continue from the completion screen |
+| P or Esc | Pause or resume |
+| Enter or Space | Continue from the level-complete screen |
 
-On touch devices, swipe mode is the default. On a keyboard, use the arrow keys or WASD. Change the input style at any time in **Settings**.
+Touch devices use swipe controls by default. You can switch input style any time in **Settings**.
+
+## ⭐ Scoring
+
+Every level has a best-possible route. Your stars depend on how close you get to it.
+
+| Stars | You earn them when |
+| :---: | --- |
+| ⭐⭐⭐ | You finish within **1 gravity change** of the best route |
+| ⭐⭐ | You finish within **4 gravity changes** of the best route |
+| ⭐ | You reach the portal at all |
+
+The level-complete screen also shows your **time**, **gravity changes** and **starbits collected**. With 12 levels there are **36 stars** to chase.
+
+### Pro tips
+
+- Look at the whole maze before your first swipe. Dead ends are your friends if they stop you in the right spot.
+- A wall next to a mine is a free brake. A mine next to a path is a free reset. Know the difference.
+- Stuck? Restart with **R**. Resets are instant and unlimited.
+- Chasing 3 stars? Plan the route first, then collect starbits on the way.
 
 ## ⚙️ Performance on everyday devices
 
-Gravity Gone uses a lightweight **HTML5 Canvas 2D renderer** and caps its internal pixel ratio to control rendering cost. Rendering quality also limits particle and background-star counts, so the game can scale down on entry-level phones and older laptops.
+Gravity Gone uses a lightweight **HTML5 Canvas 2D** renderer and caps its internal pixel ratio to keep rendering cost low. Quality settings also scale particle and background-star counts, so it can run on entry-level phones and older laptops.
 
 | Quality | Best for |
 | --- | --- |
-| **Low** | Older phones, entry-level hardware, or maximum battery friendliness |
-| **Balanced** | A practical everyday setting |
-| **High** | More capable devices that can handle extra particles and detail |
+| **Low** | Older phones, budget hardware, or maximum battery life |
+| **Balanced** | A solid everyday setting |
+| **High** | Capable devices that can handle extra particles and detail |
 
-For the smoothest experience on a low-end device, start with **Low** quality. Performance still depends on the browser, display resolution, GPU, and thermal conditions.
-
-Prefer a calmer screen? Enable **Reduce motion** in Settings. The game also respects the device's reduced-motion preference for selected visual effects.
+Prefer a calmer screen? Turn on **Reduce motion** in Settings. The game also respects your device's reduced-motion preference for selected effects.
 
 ## 💾 Progress and privacy
 
-- Level unlocks, best star ratings, fastest completion times, starbit records, and settings are saved in your browser's local storage.
-- No account is required.
-- Game progress is local to the browser and device. Clearing site data or changing browsers can remove or separate that progress.
-- The game does not need a dedicated application server to run its core puzzle mechanics.
+- Level unlocks, best stars, fastest times, starbit records and settings are saved in your **browser's local storage**.
+- No account is needed and nothing is uploaded.
+- Progress stays on that browser and device. Clearing site data or switching browsers resets it.
+- The core game needs no application server to run.
+- The page loads Google Fonts for styling. System-font fallbacks are built in if they don't load.
 
-The page requests Google Fonts for its visual styling; system-font fallbacks are defined in the source for environments where those fonts do not load.
+## 🧰 Under the hood
 
-## 🧑‍🚀 The astronaut
+| Layer | Tech |
+| --- | --- |
+| Game shell | **HTML5** |
+| Styling | **CSS** with responsive screens, menus and a neon space theme |
+| Logic | **Vanilla JavaScript** for physics, level state, input, scoring, audio and progression |
+| Rendering | **Canvas 2D** for the maze, astronaut, effects and particles |
+| Saves | **Local storage** |
+| Hosting | **Vercel** |
 
-The explorer is drawn directly by the game's Canvas renderer, so the character is part of the game rather than a heavy external sprite. The README banner and animated launch artwork are separate decorative SVGs; the original game file remains untouched.
-
-## 🧰 Technology
-
-- **HTML5** for the game shell
-- **CSS** for responsive screens, menus, and neon space styling
-- **Vanilla JavaScript** for physics, level state, input, scoring, audio, and progression
-- **Canvas 2D** for the space scene, maze, astronaut, effects, and particles
-- **Local storage** for local progress and preferences
-- **Vercel** for hosting the browser game
-
-## ▶ Play online
-
-Ready to bend the rules of down?
-
-**[Launch Gravity Gone](https://gravity-gone.vercel.app)**
-
-The game opens directly in a modern browser on phones, tablets, laptops, and desktops. No download or account is required.
+Everything lives in a single self-contained `index.html`. No frameworks, no bundler, no build step.
 
 ## 🖥️ Run it locally
 
-The game is self-contained in a single HTML file.
+```bash
+git clone https://github.com/SatyajitBeura2468/GravityGone.git
+cd GravityGone
+```
 
-1. Clone or download this repository.
-2. Open `index.html` in a modern browser.
-3. Tap the screen to enter the menu, then launch a level.
+Then open `index.html` in any modern browser. That's it.
 
-No package installation or build step is required. A local static web server can be used if you prefer to serve the file over HTTP.
+Prefer a local server? Any static server works, for example:
+
+```bash
+python3 -m http.server 8000
+```
+
+Then visit `http://localhost:8000`.
 
 ## 📦 Repository contents
 
 | Path | Purpose |
 | --- | --- |
-| `index.html` | Original, self-contained Gravity Gone game |
-| `assets/gravity-gone-banner.svg` | Custom astronaut and space-puzzle banner artwork |
-| `assets/launch-button.svg` | Animated astronaut-themed launch badge for this README |
-| `LICENSE` | Proprietary all-rights-reserved notice |
+| `index.html` | The complete Gravity Gone game |
+| `assets/gravity-gone-banner.svg` | Astronaut and space-puzzle banner artwork |
+| `assets/launch-button.svg` | Animated launch button for this README |
+| `assets/gameplay.svg` | Animated gameplay illustration for this README |
+| `LICENSE` | All-rights-reserved notice |
+
+## ❓ FAQ
+
+<details>
+<summary><b>Do I need to install anything?</b></summary>
+<br />
+No. Open the live link in a modern browser and play.
+</details>
+
+<details>
+<summary><b>Does it work on my phone?</b></summary>
+<br />
+Yes. It was designed touch-first. Swipe to change gravity. On desktop, use the arrow keys or WASD.
+</details>
+
+<details>
+<summary><b>Where is my progress saved?</b></summary>
+<br />
+In your browser's local storage, on your device only. Clearing site data will reset it.
+</details>
+
+<details>
+<summary><b>The game feels slow on my device. What can I do?</b></summary>
+<br />
+Open <b>Settings</b>, set quality to <b>Low</b>, and turn on <b>Reduce motion</b>.
+</details>
+
+<details>
+<summary><b>Can I reuse or modify the code?</b></summary>
+<br />
+Not without permission. Gravity Gone is proprietary and all rights are reserved. See the license section below.
+</details>
 
 ## 📜 License and rights
 
-**Gravity Gone is proprietary software. All rights are reserved by Satyajit Beura.** No licence to reuse, modify, redistribute, or create derivative works is granted by default. See [LICENSE](LICENSE) for the full notice.
+**Gravity Gone is proprietary software. All rights are reserved by Satyajit Beura.** No license to reuse, modify, redistribute or create derivative works is granted by default. See [LICENSE](LICENSE) for the full notice.
 
-The project name, original game source, code, game interface, and associated project artwork are not released under an open-source licence.
+The project name, original game source, code, interface and project artwork are not released under an open-source license.
 
 ---
 
 <div align="center">
 
-**BUILT BY BEURA LABS**  
+**BUILT BY BEURA LABS**<br />
 *One tiny astronaut. Twelve levels. Absolutely no obligation to respect gravity.*
 
-<a href="https://gravity-gone.vercel.app">Play Gravity Gone ↗</a>
+<br />
+
+<a href="https://gravity-gone.vercel.app"><img src="https://img.shields.io/badge/PLAY_NOW-gravity--gone.vercel.app-5ff0e0?style=for-the-badge&labelColor=101735" alt="Play Gravity Gone now" /></a>
 
 </div>
